@@ -1,0 +1,59 @@
+{
+  "name": "InstantKarma",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.8",
+    "@react-native-firebase/app": "^15.0.0",
+    "@react-native-firebase/auth": "^15.0.0",
+    "@react-native-google-signin/google-signin": "^7.2.2",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/material-top-tabs": "^6.2.1",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/native-stack": "^6.1.0",
+    "react": "17.0.2",
+    "react-native": "0.65.1",
+    "react-native-awesome-loading": "^1.0.15",
+    "react-native-counters": "^1.2.0",
+    "react-native-elements": "^3.4.2",
+    "react-native-fast-image": "^8.5.11",
+    "react-native-google-pay": "^2.1.0",
+    "react-native-lightning-modal": "^2.0.1",
+    "react-native-pager-view": "^5.4.15",
+    "react-native-paypal": "^4.1.0",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.7.2",
+    "react-native-slide-modal": "0.0.32",
+    "react-native-tab-view": "^3.1.1",
+    "react-native-toast-message": "^1.6.0",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-video": "^5.2.0",
+    "react-native-webview": "11.13.0",
+    "react-native-wheel-picker-android": "^2.0.6",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "shopify-buy": "^2.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/runtime": "^7.15.4",
+    "babel-jest": "^27.2.0",
+    "eslint": "^7.32.0",
+    "jest": "^27.2.0",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-native-codegen": "^0.0.7",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

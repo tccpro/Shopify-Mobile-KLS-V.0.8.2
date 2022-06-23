@@ -1,0 +1,42 @@
+export const CLIENT_CREATED = 'CLIENT_CREATED';
+export const PRODUCTS_FOUND = 'PRODUCTS_FOUND';
+export const CHECKOUT_FOUND = 'CHECKOUT_FOUND';
+export const SHOP_FOUND = 'SHOP_FOUND';
+export const ADD_VARIANT_TO_CART = 'ADD_VARIANT_TO_CART';
+export const UPDATE_QUANTITY_IN_CART = 'UPDATE_QUANTITY_IN_CART';
+export const REMOVE_LINE_ITEM_IN_CART = 'REMOVE_LINE_ITEM_IN_CART';
+export const OPEN_CART = 'OPEN_CART';
+export const CLOSE_CART = 'CLOSE_CART';// reducers
+
+
+
+/* Client */
+export const SET_CLIENT_CREATED = 'SET_CLIENT_CREATED';
+
+/* Products */
+export const GET_ALL_PRODUCTS = 'GET_ALL_PRODUCTS';
+export const GET_SELECTED_PRODUCTS = 'GET_SELECTED_PRODUCTS';
+
+/* Collections */
+export const GET_ALL_COLLECTIONS = 'GET_ALL_COLLECTIONS';
+export const GET_CONCERT_PRODUCTS = 'GET_CONCERT_PRODUCTS';
+
+
+/* Cart */
+export const SET_CART_ITEM_LENGTH = 'SET_CART_ITEM_LENGTH';
+export const CREATE_CHECKOUT = 'CREATE_CHECKOUT';
+export const ADD_ITEM_CART = 'ADD_ITEM_CART';
+
+/* Navigation */
+export const GET_NAVIGATION_TITLE = 'GET_NAVIGATION_TITLE';
+export const SET_EVENT_TITLE = 'SET_EVENT_TITLE';
+export const SET_ARTIST_TITLE = 'SET_ARTIST_TITLE';
+
+
+/* Customer */
+export const SIGNIN_CUSTOMER = 'SIGNIN_CUSTOMER';
+export const SIGNOUT_CUSTOMER = 'SIGNOUT_CUSTOMER';
+export const FORGOT_PASSWORD = 'FORGOT_PASSWORD';
+export const RESET_PASSWORD = 'RESET_PASSWORD';
+export const GOOGLE_SIGNIN = 'GOOGLE_SIGNIN';
+export const GOOGLE_SIGNOUT = 'GOOGLE_SIGNOUT';
