@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">58060030791-39agctp3jisjthm6ehrd5ce9i07dqj6p.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">58060030791</string>
+    <string name="google_api_key" translatable="false">AIzaSyBRaMV6NuWXKcdEEdgG29MfzebTOUa2xM0</string>
+    <string name="google_app_id" translatable="false">1:58060030791:android:42450b9626fbe9cf864262</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBRaMV6NuWXKcdEEdgG29MfzebTOUa2xM0</string>
+    <string name="google_storage_bucket" translatable="false">karma-8221a.appspot.com</string>
+    <string name="project_id" translatable="false">karma-8221a</string>
+</resources>

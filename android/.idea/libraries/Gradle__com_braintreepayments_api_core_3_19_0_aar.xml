@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.braintreepayments.api:core:3.19.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5a0e86e406580e7aaa6690f2ebb523fb/transformed/jetified-core-3.19.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d9889115458e78f995c8d71b4e058872/transformed/jetified-core-3.19.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d9889115458e78f995c8d71b4e058872/transformed/jetified-core-3.19.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d9889115458e78f995c8d71b4e058872/transformed/jetified-core-3.19.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/core/3.19.0/ae70682218f6007ef1fbfe9235ce35cdd612f24c/core-3.19.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/core/3.19.0/b5dd76193c8600ec4353d59bda44ae9ff07a8211/core-3.19.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

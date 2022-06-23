@@ -1,0 +1,9 @@
+com/instantkarma/BuildConfig.java
+ com.instantkarma.BuildConfig
+com/instantkarma/MainActivity.java
+ com.instantkarma.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/instantkarma/MainApplication.java
+ com.instantkarma.MainApplication
+ com.instantkarma.MainApplication$1

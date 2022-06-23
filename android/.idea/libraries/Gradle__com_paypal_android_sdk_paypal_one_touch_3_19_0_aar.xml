@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.paypal.android.sdk:paypal-one-touch:3.19.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8443e16ec63f68bc3f261a1c43f10390/transformed/jetified-paypal-one-touch-3.19.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/15293ef272ec1ed52540feb1872c3dbd/transformed/jetified-paypal-one-touch-3.19.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8443e16ec63f68bc3f261a1c43f10390/transformed/jetified-paypal-one-touch-3.19.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8443e16ec63f68bc3f261a1c43f10390/transformed/jetified-paypal-one-touch-3.19.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8443e16ec63f68bc3f261a1c43f10390/transformed/jetified-paypal-one-touch-3.19.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.paypal.android.sdk/paypal-one-touch/3.19.0/e5a140d870f8e43b9c5c9326cce408f95441d6ed/paypal-one-touch-3.19.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.paypal.android.sdk/paypal-one-touch/3.19.0/a3590b4a40ca6c8c78c574024e91f88a65216ed8/paypal-one-touch-3.19.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

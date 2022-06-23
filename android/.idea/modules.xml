@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InstantKarma.iml" filepath="$PROJECT_DIR$/.idea/modules/InstantKarma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/InstantKarma.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/InstantKarma.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/InstantKarma.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/InstantKarma.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/InstantKarma.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/InstantKarma.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/InstantKarma.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/InstantKarma.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2015009935/InstantKarma.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/2015009935/InstantKarma.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2015009935/InstantKarma.react-native-async-storage_async-storage.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/2015009935/InstantKarma.react-native-async-storage_async-storage.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2015009935/InstantKarma.react-native-async-storage_async-storage.main.iml" filepath="$PROJECT_DIR$/.idea/modules/2015009935/InstantKarma.react-native-async-storage_async-storage.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2015009935/InstantKarma.react-native-async-storage_async-storage.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/2015009935/InstantKarma.react-native-async-storage_async-storage.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1968747590/InstantKarma.react-native-fast-image.iml" filepath="$PROJECT_DIR$/.idea/modules/1968747590/InstantKarma.react-native-fast-image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1968747590/InstantKarma.react-native-fast-image.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1968747590/InstantKarma.react-native-fast-image.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1968747590/InstantKarma.react-native-fast-image.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1968747590/InstantKarma.react-native-fast-image.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1968747590/InstantKarma.react-native-fast-image.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1968747590/InstantKarma.react-native-fast-image.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-983514931/InstantKarma.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-983514931/InstantKarma.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-983514931/InstantKarma.react-native-firebase_app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-983514931/InstantKarma.react-native-firebase_app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-983514931/InstantKarma.react-native-firebase_app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-983514931/InstantKarma.react-native-firebase_app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-983514931/InstantKarma.react-native-firebase_app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-983514931/InstantKarma.react-native-firebase_app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1171116484/InstantKarma.react-native-firebase_auth.iml" filepath="$PROJECT_DIR$/.idea/modules/-1171116484/InstantKarma.react-native-firebase_auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1171116484/InstantKarma.react-native-firebase_auth.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1171116484/InstantKarma.react-native-firebase_auth.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1171116484/InstantKarma.react-native-firebase_auth.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1171116484/InstantKarma.react-native-firebase_auth.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1171116484/InstantKarma.react-native-firebase_auth.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1171116484/InstantKarma.react-native-firebase_auth.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-11101650/InstantKarma.react-native-google-pay.iml" filepath="$PROJECT_DIR$/.idea/modules/-11101650/InstantKarma.react-native-google-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-11101650/InstantKarma.react-native-google-pay.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-11101650/InstantKarma.react-native-google-pay.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-11101650/InstantKarma.react-native-google-pay.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-11101650/InstantKarma.react-native-google-pay.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-11101650/InstantKarma.react-native-google-pay.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-11101650/InstantKarma.react-native-google-pay.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/891289756/InstantKarma.react-native-google-signin.iml" filepath="$PROJECT_DIR$/.idea/modules/891289756/InstantKarma.react-native-google-signin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-557577047/InstantKarma.react-native-google-signin_google-signin.iml" filepath="$PROJECT_DIR$/.idea/modules/-557577047/InstantKarma.react-native-google-signin_google-signin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-557577047/InstantKarma.react-native-google-signin_google-signin.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-557577047/InstantKarma.react-native-google-signin_google-signin.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-557577047/InstantKarma.react-native-google-signin_google-signin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-557577047/InstantKarma.react-native-google-signin_google-signin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-557577047/InstantKarma.react-native-google-signin_google-signin.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-557577047/InstantKarma.react-native-google-signin_google-signin.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1519051127/InstantKarma.react-native-pager-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1519051127/InstantKarma.react-native-pager-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1519051127/InstantKarma.react-native-pager-view.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1519051127/InstantKarma.react-native-pager-view.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1519051127/InstantKarma.react-native-pager-view.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1519051127/InstantKarma.react-native-pager-view.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1519051127/InstantKarma.react-native-pager-view.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1519051127/InstantKarma.react-native-pager-view.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/964417549/InstantKarma.react-native-paypal.iml" filepath="$PROJECT_DIR$/.idea/modules/964417549/InstantKarma.react-native-paypal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/964417549/InstantKarma.react-native-paypal.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/964417549/InstantKarma.react-native-paypal.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/964417549/InstantKarma.react-native-paypal.main.iml" filepath="$PROJECT_DIR$/.idea/modules/964417549/InstantKarma.react-native-paypal.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/964417549/InstantKarma.react-native-paypal.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/964417549/InstantKarma.react-native-paypal.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/682603029/InstantKarma.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/682603029/InstantKarma.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/682603029/InstantKarma.react-native-safe-area-context.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/682603029/InstantKarma.react-native-safe-area-context.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/682603029/InstantKarma.react-native-safe-area-context.main.iml" filepath="$PROJECT_DIR$/.idea/modules/682603029/InstantKarma.react-native-safe-area-context.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/682603029/InstantKarma.react-native-safe-area-context.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/682603029/InstantKarma.react-native-safe-area-context.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1576421267/InstantKarma.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1576421267/InstantKarma.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1576421267/InstantKarma.react-native-screens.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1576421267/InstantKarma.react-native-screens.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1576421267/InstantKarma.react-native-screens.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1576421267/InstantKarma.react-native-screens.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1576421267/InstantKarma.react-native-screens.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1576421267/InstantKarma.react-native-screens.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/835396266/InstantKarma.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/835396266/InstantKarma.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/835396266/InstantKarma.react-native-vector-icons.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/835396266/InstantKarma.react-native-vector-icons.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/835396266/InstantKarma.react-native-vector-icons.main.iml" filepath="$PROJECT_DIR$/.idea/modules/835396266/InstantKarma.react-native-vector-icons.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/835396266/InstantKarma.react-native-vector-icons.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/835396266/InstantKarma.react-native-vector-icons.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1817103135/InstantKarma.react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/-1817103135/InstantKarma.react-native-video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1817103135/InstantKarma.react-native-video.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1817103135/InstantKarma.react-native-video.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1817103135/InstantKarma.react-native-video.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1817103135/InstantKarma.react-native-video.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1817103135/InstantKarma.react-native-video.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1817103135/InstantKarma.react-native-video.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1977488607/InstantKarma.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/1977488607/InstantKarma.react-native-webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1977488607/InstantKarma.react-native-webview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1977488607/InstantKarma.react-native-webview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1977488607/InstantKarma.react-native-webview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1977488607/InstantKarma.react-native-webview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1977488607/InstantKarma.react-native-webview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1977488607/InstantKarma.react-native-webview.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1851690628/InstantKarma.react-native-wheel-picker-android.iml" filepath="$PROJECT_DIR$/.idea/modules/-1851690628/InstantKarma.react-native-wheel-picker-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1851690628/InstantKarma.react-native-wheel-picker-android.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1851690628/InstantKarma.react-native-wheel-picker-android.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1851690628/InstantKarma.react-native-wheel-picker-android.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1851690628/InstantKarma.react-native-wheel-picker-android.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1851690628/InstantKarma.react-native-wheel-picker-android.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1851690628/InstantKarma.react-native-wheel-picker-android.unitTest.iml" />
+    </modules>
+  </component>
+</project>

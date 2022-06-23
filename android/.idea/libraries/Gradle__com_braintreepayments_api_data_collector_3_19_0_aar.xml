@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.braintreepayments.api:data-collector:3.19.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7dbb073276111d6fc8011a31fe7146c5/transformed/jetified-data-collector-3.19.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f311b243df1dacc435011bad2fe460fa/transformed/jetified-data-collector-3.19.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f311b243df1dacc435011bad2fe460fa/transformed/jetified-data-collector-3.19.0/jars/libs/kount-data-collector-3.2.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f311b243df1dacc435011bad2fe460fa/transformed/jetified-data-collector-3.19.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f311b243df1dacc435011bad2fe460fa/transformed/jetified-data-collector-3.19.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/data-collector/3.19.0/ad7921a651a460bd2a4b76e4b85e0faae3abaeb0/data-collector-3.19.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/data-collector/3.19.0/ad7921a651a460bd2a4b76e4b85e0faae3abaeb0/data-collector-3.19.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

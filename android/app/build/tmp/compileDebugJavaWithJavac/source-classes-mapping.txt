@@ -1,0 +1,14 @@
+com/instantkarma/BuildConfig.java
+ com.instantkarma.BuildConfig
+com/instantkarma/ReactNativeFlipper.java
+ com.instantkarma.ReactNativeFlipper
+ com.instantkarma.ReactNativeFlipper$1
+ com.instantkarma.ReactNativeFlipper$2
+ com.instantkarma.ReactNativeFlipper$2$1
+com/instantkarma/MainActivity.java
+ com.instantkarma.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/instantkarma/MainApplication.java
+ com.instantkarma.MainApplication
+ com.instantkarma.MainApplication$1
