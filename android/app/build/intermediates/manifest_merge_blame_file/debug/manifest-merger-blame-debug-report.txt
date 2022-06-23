@@ -1,0 +1,344 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.instantkarma"
+4    android:versionCode="7"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\DevProcess\Android\PRO_APP\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\DevProcess\Android\PRO_APP\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:5:5-67
+12-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.93.0] C:\Users\William\.gradle\caches\transforms-3\4e00d0c62026208410ba30c24b85472b\transformed\jetified-flipper-0.93.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.93.0] C:\Users\William\.gradle\caches\transforms-3\4e00d0c62026208410ba30c24b85472b\transformed\jetified-flipper-0.93.0\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_auth] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+14-->[:react-native-firebase_auth] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-firebase_auth] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+15-->[:react-native-firebase_auth] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\William\.gradle\caches\transforms-3\775619765b1b5b54f537f8754cfd7041\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:5-79
+16-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\William\.gradle\caches\transforms-3\775619765b1b5b54f537f8754cfd7041\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:15.0.1] C:\Users\William\.gradle\caches\transforms-3\587798fa16b7c3815683a3b636ccc289\transformed\jetified-play-services-maps-15.0.1\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:15.0.1] C:\Users\William\.gradle\caches\transforms-3\587798fa16b7c3815683a3b636ccc289\transformed\jetified-play-services-maps-15.0.1\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:15.0.1] C:\Users\William\.gradle\caches\transforms-3\587798fa16b7c3815683a3b636ccc289\transformed\jetified-play-services-maps-15.0.1\AndroidManifest.xml:28:9-32
+21
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+22-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:26:5-110
+22-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:26:22-107
+23
+24    <application
+24-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:7:5-27:19
+25        android:name="com.instantkarma.MainApplication"
+25-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:8:7-38
+26        android:allowBackup="false"
+26-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:12:7-34
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.5.0] C:\Users\William\.gradle\caches\transforms-3\66c2fd735f0d8c06d645769bec26e193\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:10:7-41
+30        android:label="@string/app_name"
+30-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:9:7-39
+31        android:largeHeap="true"
+31-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:13:7-31
+32        android:roundIcon="@mipmap/ic_launcher"
+32-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:11:7-46
+33        android:theme="@style/AppTheme"
+33-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:14:7-38
+34        android:usesCleartextTraffic="true" >
+34-->D:\DevProcess\Android\PRO_APP\android\app\src\debug\AndroidManifest.xml:8:9-44
+35        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+35-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:26:7-84
+35-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:26:17-81
+36        <activity
+36-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:15:7-25:18
+37            android:name="com.instantkarma.MainActivity"
+37-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:16:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+38-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:18:9-86
+39            android:label="@string/app_name"
+39-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:17:9-41
+40            android:launchMode="singleTask"
+40-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:19:9-40
+41            android:windowSoftInputMode="adjustResize" >
+41-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:20:9-51
+42            <intent-filter>
+42-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:21:9-24:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:22:13-65
+43-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:22:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:23:13-73
+45-->D:\DevProcess\Android\PRO_APP\android\app\src\main\AndroidManifest.xml:23:23-70
+46            </intent-filter>
+47        </activity>
+48
+49        <meta-data
+49-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-13:36
+50            android:name="app_data_collection_default_enabled"
+50-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-63
+51            android:value="true" />
+51-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-33
+52
+53        <service
+53-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:19
+54            android:name="com.google.firebase.components.ComponentDiscoveryService"
+54-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-84
+55            android:directBootAware="true"
+55-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-43
+56            android:exported="false" >
+56-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+57            <meta-data
+57-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:85
+58                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+58-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-120
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
+60            <meta-data
+60-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:67:13-69:85
+61                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+61-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:68:17-109
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:69:17-82
+63            <meta-data
+63-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\William\.gradle\caches\transforms-3\775619765b1b5b54f537f8754cfd7041\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
+64                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+64-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\William\.gradle\caches\transforms-3\775619765b1b5b54f537f8754cfd7041\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\William\.gradle\caches\transforms-3\775619765b1b5b54f537f8754cfd7041\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\William\.gradle\caches\transforms-3\e7005a1e83855160011d2ca2ea94f9d0\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+67                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+67-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\William\.gradle\caches\transforms-3\e7005a1e83855160011d2ca2ea94f9d0\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\William\.gradle\caches\transforms-3\e7005a1e83855160011d2ca2ea94f9d0\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+69        </service>
+70
+71        <provider
+71-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-29:38
+72            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+72-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-88
+73            android:authorities="com.instantkarma.reactnativefirebaseappinitprovider"
+73-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-86
+74            android:exported="false"
+74-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+75            android:initOrder="99" />
+75-->[:react-native-firebase_app] D:\DevProcess\Android\PRO_APP\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-35
+76
+77        <activity
+77-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-24:20
+78            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+78-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-84
+79            android:launchMode="singleTask"
+79-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-44
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+80-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-72
+81            <intent-filter>
+81-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-23:29
+82                <action android:name="android.intent.action.VIEW" />
+82-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-69
+82-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:25-66
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-76
+84-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:27-73
+85                <category android:name="android.intent.category.BROWSABLE" />
+85-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-78
+85-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:27-75
+86
+87                <data android:scheme="com.instantkarma.braintree" />
+87-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-69
+87-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:23-66
+88            </intent-filter>
+89        </activity>
+90
+91        <provider
+91-->[:react-native-webview] D:\DevProcess\Android\PRO_APP\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+92            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+92-->[:react-native-webview] D:\DevProcess\Android\PRO_APP\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-83
+93            android:authorities="com.instantkarma.fileprovider"
+93-->[:react-native-webview] D:\DevProcess\Android\PRO_APP\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-64
+94            android:exported="false"
+94-->[:react-native-webview] D:\DevProcess\Android\PRO_APP\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+95            android:grantUriPermissions="true" >
+95-->[:react-native-webview] D:\DevProcess\Android\PRO_APP\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+96            <meta-data
+96-->[:react-native-webview] D:\DevProcess\Android\PRO_APP\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:63
+97                android:name="android.support.FILE_PROVIDER_PATHS"
+97-->[:react-native-webview] D:\DevProcess\Android\PRO_APP\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+98                android:resource="@xml/file_provider_paths" />
+98-->[:react-native-webview] D:\DevProcess\Android\PRO_APP\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-60
+99        </provider>
+100
+101        <activity
+101-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:27:9-44:20
+102            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+102-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:28:13-80
+103            android:excludeFromRecents="true"
+103-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:29:13-46
+104            android:exported="true"
+104-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:30:13-36
+105            android:launchMode="singleTask"
+105-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:31:13-44
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+106-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:32:13-72
+107            <intent-filter>
+107-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:33:13-43:29
+108                <action android:name="android.intent.action.VIEW" />
+108-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-69
+108-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:25-66
+109
+110                <category android:name="android.intent.category.DEFAULT" />
+110-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-76
+110-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:27-73
+111                <category android:name="android.intent.category.BROWSABLE" />
+111-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-78
+111-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:27-75
+112
+113                <data
+113-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-69
+114                    android:host="firebase.auth"
+115                    android:path="/"
+116                    android:scheme="genericidp" />
+116-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:23-66
+117            </intent-filter>
+118        </activity>
+119        <activity
+119-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:45:9-62:20
+120            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+120-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:46:13-79
+121            android:excludeFromRecents="true"
+121-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:47:13-46
+122            android:exported="true"
+122-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:48:13-36
+123            android:launchMode="singleTask"
+123-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:49:13-44
+124            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+124-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:50:13-72
+125            <intent-filter>
+125-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\William\.gradle\caches\transforms-3\06fdbec5d3db8be3378969a58f2bf781\transformed\jetified-firebase-auth-21.0.5\AndroidManifest.xml:51:13-61:29
+126                <action android:name="android.intent.action.VIEW" />
+126-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-69
+126-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:25-66
+127
+128                <category android:name="android.intent.category.DEFAULT" />
+128-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-76
+128-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:27-73
+129                <category android:name="android.intent.category.BROWSABLE" />
+129-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-78
+129-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:27-75
+130
+131                <data
+131-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-69
+132                    android:host="firebase.auth"
+133                    android:path="/"
+134                    android:scheme="recaptcha" />
+134-->[:react-native-paypal] D:\DevProcess\Android\PRO_APP\node_modules\react-native-paypal\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:23-66
+135            </intent-filter>
+136        </activity>
+137
+138        <provider
+138-->[com.google.firebase:firebase-common:20.1.1] C:\Users\William\.gradle\caches\transforms-3\feece34851cf8858ebfb590f2fc8349b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+139            android:name="com.google.firebase.provider.FirebaseInitProvider"
+139-->[com.google.firebase:firebase-common:20.1.1] C:\Users\William\.gradle\caches\transforms-3\feece34851cf8858ebfb590f2fc8349b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+140            android:authorities="com.instantkarma.firebaseinitprovider"
+140-->[com.google.firebase:firebase-common:20.1.1] C:\Users\William\.gradle\caches\transforms-3\feece34851cf8858ebfb590f2fc8349b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+141            android:directBootAware="true"
+141-->[com.google.firebase:firebase-common:20.1.1] C:\Users\William\.gradle\caches\transforms-3\feece34851cf8858ebfb590f2fc8349b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+142            android:exported="false"
+142-->[com.google.firebase:firebase-common:20.1.1] C:\Users\William\.gradle\caches\transforms-3\feece34851cf8858ebfb590f2fc8349b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+143            android:initOrder="100" />
+143-->[com.google.firebase:firebase-common:20.1.1] C:\Users\William\.gradle\caches\transforms-3\feece34851cf8858ebfb590f2fc8349b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+144
+145        <meta-data
+145-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\William\.gradle\caches\transforms-3\c9f3d2a6f53379a423ec3d6983265b4c\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:11:9-13:43
+146            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+146-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\William\.gradle\caches\transforms-3\c9f3d2a6f53379a423ec3d6983265b4c\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:12:13-84
+147            android:value="GlideModule" />
+147-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\William\.gradle\caches\transforms-3\c9f3d2a6f53379a423ec3d6983265b4c\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:13:13-40
+148
+149        <activity
+149-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\William\.gradle\caches\transforms-3\857aad696f227aeeff6f993fa263f58b\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:23:9-27:75
+150            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+150-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\William\.gradle\caches\transforms-3\857aad696f227aeeff6f993fa263f58b\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:24:13-93
+151            android:excludeFromRecents="true"
+151-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\William\.gradle\caches\transforms-3\857aad696f227aeeff6f993fa263f58b\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:25:13-46
+152            android:exported="false"
+152-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\William\.gradle\caches\transforms-3\857aad696f227aeeff6f993fa263f58b\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:26:13-37
+153            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+153-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\William\.gradle\caches\transforms-3\857aad696f227aeeff6f993fa263f58b\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:27:13-72
+154        <!--
+155            Service handling Google Sign-In user revocation. For apps that do not integrate with
+156            Google Sign-In, this service will never be started.
+157        -->
+158        <service
+158-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\William\.gradle\caches\transforms-3\857aad696f227aeeff6f993fa263f58b\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:33:9-37:51
+159            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+159-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\William\.gradle\caches\transforms-3\857aad696f227aeeff6f993fa263f58b\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:34:13-89
+160            android:exported="true"
+160-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\William\.gradle\caches\transforms-3\857aad696f227aeeff6f993fa263f58b\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:35:13-36
+161            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+161-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\William\.gradle\caches\transforms-3\857aad696f227aeeff6f993fa263f58b\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:36:13-107
+162            android:visibleToInstantApps="true" />
+162-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\William\.gradle\caches\transforms-3\857aad696f227aeeff6f993fa263f58b\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:37:13-48
+163
+164        <activity
+164-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\William\.gradle\caches\transforms-3\304a75b6a5bbef780e26356822c34dba\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+165            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+165-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\William\.gradle\caches\transforms-3\304a75b6a5bbef780e26356822c34dba\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+166            android:exported="false"
+166-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\William\.gradle\caches\transforms-3\304a75b6a5bbef780e26356822c34dba\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+167            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+167-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\William\.gradle\caches\transforms-3\304a75b6a5bbef780e26356822c34dba\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+168
+169        <receiver
+169-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
+170            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+170-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
+171            android:enabled="true"
+171-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
+172            android:exported="false" >
+172-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
+173        </receiver>
+174
+175        <service
+175-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
+176            android:name="com.google.android.gms.measurement.AppMeasurementService"
+176-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
+177            android:enabled="true"
+177-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
+178            android:exported="false" />
+178-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
+179        <service
+179-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
+180            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+180-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
+181            android:enabled="true"
+181-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
+182            android:exported="false"
+182-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
+183            android:permission="android.permission.BIND_JOB_SERVICE" />
+183-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\William\.gradle\caches\transforms-3\c3b990293461fad98984ebd278f6028e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
+184
+185        <meta-data
+185-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\William\.gradle\caches\transforms-3\0b45f46d0aa555272212183ccdb4ca0d\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+186            android:name="com.google.android.gms.version"
+186-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\William\.gradle\caches\transforms-3\0b45f46d0aa555272212183ccdb4ca0d\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+187            android:value="@integer/google_play_services_version" />
+187-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\William\.gradle\caches\transforms-3\0b45f46d0aa555272212183ccdb4ca0d\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+188    </application>
+189
+190</manifest>
