@@ -15,8 +15,7 @@ import {
     Text,
     TouchableOpacity,
     ImageBackground,
-  } from 'react-native';
-
+} from 'react-native';
 import {SHOP_URL, API_URL, ACCESS_TOKEN} from '../config/config';
 import allActions from '../stores/actions';
 
