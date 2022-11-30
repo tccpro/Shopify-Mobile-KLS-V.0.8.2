@@ -9,15 +9,13 @@ import {
     ImageBackground,
 } from 'react-native';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
-
 function GetRewardsScreen() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Text>Get Rewards</Text>
       </View>
     );
-  }
-  
+  }  
   function EarnIKCashScreen() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
@@ -25,9 +23,7 @@ function GetRewardsScreen() {
       </View>
     );
   }
-
 const Tab = createMaterialTopTabNavigator();
-
 export default class Smilecreen extends Component {
   render() {
     return (
