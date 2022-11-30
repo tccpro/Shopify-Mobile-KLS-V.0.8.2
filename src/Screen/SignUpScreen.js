@@ -1,11 +1,9 @@
 import React, { useState, useEffect, createRef } from 'react';
 import {useSelector, useDispatch} from 'react-redux';
-
 import {SHOP_URL, API_URL, ACCESS_TOKEN} from '../config/config';
 import allActions from '../stores/actions';
 import AwesomeLoading from 'react-native-awesome-loading';
 import Toast from 'react-native-toast-message';
-
 import {
   StyleSheet, 
   TextInput,
@@ -18,18 +16,14 @@ import {
   KeyboardAvoidingView,
   ImageBackground,
 } from 'react-native';
-
 const SignUpScreen = ({ navigation }) => {
-
   const showMessage = (txt,type) => {
     Toast.show({
       type: type?type:'info',
       text1: txt?txt:'This is an info message!'
     });
   }
-
   const dispatch = useDispatch();
-  
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [userEmail, setUserEmail] = useState('');
@@ -37,12 +31,10 @@ const SignUpScreen = ({ navigation }) => {
   const [userConfirmPassword, setUserConfirmPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [errortext, setErrortext] = useState('');
-
   const emailInputRef = createRef();
   const phoneInputRef = createRef();
   const passwordInputRef = createRef();
   const confirmPwdInputRef = createRef();
-
   const clearAll = () => {
   
     setFirstName('');
