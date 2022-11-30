@@ -14,10 +14,7 @@ import { Icon, Overlay } from 'react-native-elements'
 import { SafeAreaView } from 'react-native-safe-area-context';
 import allActions from '../stores/actions';
 import client from '../service/client';
-
-
 const ShopItemListScreen = ({ navigation, route }) => {
-
     const [shopItemDataSource, setShopItemDataSource] = useState([]);
     const [totalPrice, setTotalPrice] = useState("0")
     const [dataSource, setDataSource] = useState([]);
@@ -27,41 +24,30 @@ const ShopItemListScreen = ({ navigation, route }) => {
     const checkoutId = useSelector((state) => state.checkout?.checkoutItem?.id);
     const checkout = useSelector((state) => state.checkout?.checkoutItem);
     const cartItem = useSelector((state) => state.checkout?.checkoutItem?.lineItems);
-
     useEffect(() => {
       setDataSource(cartItem)
     }, [cartItem])
-
     useEffect(() => {
         setShopItemDataSource(productObj.selectedProducts)
     }, [productObj.selectedProducts]);
-
     useEffect(() => {
         setShopItemDataSource(productObj.selectedProducts)
     }, []);
-
-
     const goToConcertCart = () => {
 			navigation.navigate('ConcertCart')
     }
     const goBack = () => {
 			navigation.replace('ShopCollection');
     }
-
     const goToItem = (item) => {
 			navigation.navigate({name: 'ShopItem', params: {itemInfo: item}})
     }
-
-
-
     const goPurchase = () => {
       navigation.navigate({name: 'WebView', params: {url: checkout.webUrl}});
     }
-
     const viewCart = () => {
       setModalVisible(true);
     }
-
     const removeItemFromCart = (item) => {
       const lineItemIdsToRemove = [
         item.id
@@ -70,7 +56,6 @@ const ShopItemListScreen = ({ navigation, route }) => {
         dispatch(allActions.checkoutAction.addItemCart(checkout));
       });
     }
-
     return (
         <View style={styles.container}>
             <ImageBackground source={require('../res/imgs/background.png')} style={styles.backImage}>
