@@ -1,5 +1,3 @@
-
-// Import React and Component
 import { 
   GoogleSignin,
   GoogleSigninButton,
