@@ -1,6 +1,3 @@
-
-
-// Import React and Component
 import React, { useState, useEffect } from 'react';
 import {
   ActivityIndicator,
@@ -12,13 +9,10 @@ import {
   Text,
   Button,
 } from 'react-native';
-
 const ConcertPurchasedScreen = ({ navigation }) => {
-
   const goToShopCollection = () => {
     navigation.navigate('ShopCollection')
   }
-
   return (
     <View style={styles.container}>
       <ImageBackground source={require('../res/imgs/background.png')} style={styles.backImage}>
@@ -38,9 +32,7 @@ const ConcertPurchasedScreen = ({ navigation }) => {
     </View>
   );
 };
-
 export default ConcertPurchasedScreen;
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
