@@ -73,7 +73,6 @@ export default class Smilecreen extends Component {
     );
   }
 }
-
 const styles = StyleSheet.create({
     backImage: {
         width: '100%',
