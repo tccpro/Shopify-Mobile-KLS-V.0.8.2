@@ -14,7 +14,6 @@ import { WheelPicker } from "react-native-wheel-picker-android";
 import { wheelPickerData } from '../constants/londonrooftop';
 import allActions from '../stores/actions';
 import client from '../service/client';
-
 const BandListScreen = ({ navigation }) => {
 	const [selectedItem, setselectedItem] = useState(0);
 	const dispatch = useDispatch();
@@ -26,7 +25,7 @@ const BandListScreen = ({ navigation }) => {
 	const goBack = () => {
 		navigation.goBack();
 	}
-	
+	//
 	const goToBandItemList = () => {
 		const collectionId = newcollections[0].id;
 		client.collection.fetchWithProducts(collectionId).then((collection) => {
