@@ -28,7 +28,6 @@ const DATA = [
     title: 'Fith Item',
   },
 ];
-
 export default class SkypilotScreen extends Component {
   render() {
     return (
