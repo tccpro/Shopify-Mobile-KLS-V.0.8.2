@@ -1,4 +1,4 @@
-# Shopify-Mobile-APP-Karma-V.0.8.2
+# Shopify-Mobile-APP-KLS-V.0.8.2
 
 Add your store key and domain here ../src/config/config.js 
 
