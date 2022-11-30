@@ -8,12 +8,10 @@ import {
   Text,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-
 const ServiceListScreen = ({navigation}) => {
   const goToConcert = () => {
     navigation.navigate('EventList');
   };
-
   const goToShopByBand = () => {
     navigation.navigate('BandList');
   };
