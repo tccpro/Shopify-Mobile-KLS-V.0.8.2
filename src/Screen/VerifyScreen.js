@@ -1,5 +1,3 @@
-
-// Import React and Component
 import React, { useState, useEffect } from 'react';
 import {
   ActivityIndicator,
@@ -10,17 +8,13 @@ import {
   ImageBackground,
   Text
 } from 'react-native';
-
 const VerifyScreen = ({ navigation }) => {
-
   const goToConcert = () => {
     navigation.navigate('ConcertType')
   }
-
   const goToShopCollection = () => {
     navigation.navigate('ShopCollection')
   }
-
   return (
     <View style={styles.container}>
       <ImageBackground source={require('../res/imgs/background.png')} style={styles.backImage}>
@@ -42,9 +36,7 @@ const VerifyScreen = ({ navigation }) => {
     </View>
   );
 };
-
 export default VerifyScreen;
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
