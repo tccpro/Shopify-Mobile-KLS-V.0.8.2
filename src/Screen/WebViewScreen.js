@@ -5,7 +5,6 @@ export default class WebViewScreen extends Component {
   constructor (props) {
     super (props);
   }
- 
   render() {
     return (
       <WebView
