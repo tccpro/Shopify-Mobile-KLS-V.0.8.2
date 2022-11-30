@@ -8,6 +8,7 @@ export const ACCESS_TOKEN = '...';
 export const SHOP_URL = '...';
 ```
 
+
 # Config Example 
 ```
 export const API_URL = 'https://<storeURL>.myshopify.com/api/2022-04/graphql.json';
