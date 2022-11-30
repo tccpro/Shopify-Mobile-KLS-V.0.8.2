@@ -9,8 +9,8 @@ import {
     Image,
     TouchableOpacity,
     ImageBackground,
-  } from 'react-native';
-
+} from 'react-native';
+//test data
 const DATA = [
   {
     title: 'First Item',
