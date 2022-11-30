@@ -4,15 +4,12 @@ import {
   statusCodes,
  } from '@react-native-google-signin/google-signin';
 import auth, { FirebaseAuthTypes } from '@react-native-firebase/auth';
-
 import React, { useState, useEffect, createRef } from 'react';
 import {useSelector, useDispatch} from 'react-redux';
-
 import {SHOP_URL, API_URL, ACCESS_TOKEN} from '../config/config';
 import allActions from '../stores/actions';
 import AwesomeLoading from 'react-native-awesome-loading';
 import Toast from 'react-native-toast-message';
-
 import {
   Button,
   StyleSheet,
@@ -26,8 +23,6 @@ import {
   KeyboardAvoidingView,
   ImageBackground,
 } from 'react-native';
-
-
 
 const SignInScreen = ({ navigation }) => {
 
