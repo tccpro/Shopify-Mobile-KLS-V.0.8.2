@@ -25,7 +25,6 @@ const BandListScreen = ({ navigation }) => {
 	const goBack = () => {
 		navigation.goBack();
 	}
-	//
 	const goToBandItemList = () => {
 		const collectionId = newcollections[0].id;
 		client.collection.fetchWithProducts(collectionId).then((collection) => {
