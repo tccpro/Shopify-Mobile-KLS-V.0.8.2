@@ -1,4 +1,3 @@
-// Import React and Component
 import React, {useState, useEffect} from 'react';
 import {
   ActivityIndicator,
@@ -11,7 +10,6 @@ import {
   ScrollView,
 } from 'react-native';
 import {Card, ListItem, Button, Icon} from 'react-native-elements';
-
 const ConcertPriceScreen = ({navigation}) => {
   const goBack = () => {
     navigation.goBack();
