@@ -1,5 +1,3 @@
-
-// Import React and Component
 import React, { useState, useEffect } from 'react';
 import {
   ActivityIndicator,
@@ -11,7 +9,6 @@ import {
   Text
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-
 const SplashScreen = ({ navigation }) => {
 
     const [animating, setAnimating] = useState(true);
@@ -19,11 +16,7 @@ const SplashScreen = ({ navigation }) => {
     useEffect(() => {
       setTimeout(() => {
         setAnimating(false);
-        //Check if user_id is set or not
-        //If not then send for Authentication
-        //else send to Home Screen
           navigation.replace('Main')
-
       }, 2000);
     }, []);
 
