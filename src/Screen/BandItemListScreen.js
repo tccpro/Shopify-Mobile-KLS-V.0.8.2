@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, {useState, useEffect} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
@@ -22,7 +21,6 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import ConcertCartScreen from './ConcertCartScreen';
 import allActions  from '../stores/actions';
 import client from '../service/client';
-
 const BandItemListScreen = ({navigation, route}) => {
   const [dataSource, setDataSource] = useState([]);
   const [cartVariantSource, setCartVariantSource] = useState([]);
@@ -33,14 +31,12 @@ const BandItemListScreen = ({navigation, route}) => {
   const [selectedOptionsIndexObj, setSelectedOptionsIndexObj] = useState(null);
   const [sliderVisible, setSliderVisible] = useState(false);
   const [flag, setFlag] = useState(false);
-
   const proudctObj = useSelector((state) => state.product);
   const checkout = useSelector((state) => state.checkout?.checkoutItem)
   const checkoutId = useSelector((state) => state.checkout?.checkoutItem?.id);
   const cartItem = useSelector((state) => state.checkout?.checkoutItem?.lineItems)
   const title = useSelector((state) => state.navigations.artistTitle)
   const dispatch = useDispatch();
-
   useEffect(async () => {
     setDataSource(proudctObj.products.filter(item => item.images.length > 0 ));
     setCartVariantSource(cartItem);
