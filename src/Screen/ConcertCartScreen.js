@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, {useState, useEffect} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {AsyncStorage } from 'react-native';
@@ -17,7 +16,6 @@ import {Icon, CheckBox} from 'react-native-elements';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import allActions from '../stores/actions';
 import client from '../service/client';
-
 const ConcertCartScreen = ({navigation, route}) => {
   const [modalVisible, setModalVisible] = useState(false);
   const [dataSource, setDataSource] = useState([]);
@@ -29,7 +27,6 @@ const ConcertCartScreen = ({navigation, route}) => {
   const checkoutId = useSelector((state) => state.checkout?.checkoutItem?.id);
   const checkout = useSelector((state) => state.checkout?.checkoutItem);
   const cartItem = useSelector((state) => state.checkout?.checkoutItem?.lineItems);
-  
   useEffect(() => {
     setDataSource(cartItem)
     setFlag(prev => !prev)
