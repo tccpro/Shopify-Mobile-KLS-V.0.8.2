@@ -1,5 +1,3 @@
-
-// Import React and Component
 import React, { useState, useEffect, useDebugValue } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {
@@ -18,28 +16,21 @@ import Toast from 'react-native-toast-message';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import allActions from '../stores/actions';
 import client from '../service/client';
-
-const ShopItemScreen = ({ navigation, route }) => {
-
- 
+const ShopItemScreen = ({ navigation, route }) => { 
     const [addCartText, setAddCartText] = useState('Add To Cart');
     const [itemInfo, setItemInfo] = useState();
     const [selectedIndex, updateIndex] = useState(0);
     const [checked, updateChecked] = useState(true);
     const [checked1, updateChecked1] = useState(true);
-    const buttons = ['S', 'M', 'L', 'XL', 'XXL'];
-    
+    const buttons = ['S', 'M', 'L', 'XL', 'XXL'];    
     const dispatch = useDispatch();
     const productItem = route.params.itemInfo;
     const checkoutId = useSelector((state) => state.checkout?.checkoutItem?.id);
-
     useEffect(async () => {
         setItemInfo(route.params.itemInfo);
-
         try {
             const value = await AsyncStorage.getItem('shop_cart_items')
             if (value !== null) {
-                // value previously stored
                 if(value.indexOf(route.params?.itemInfo.id) != -1){
                     setAddCartText('Added To Cart')
                 }     
