@@ -3,8 +3,8 @@ import { useDispatch } from 'react-redux';
 import Client from 'shopify-buy/index.unoptimized.umd';
 import allActions from '../stores/actions';
 const client = Client.buildClient({
-    domain: 'myconcertdirect.com',
-    storefrontAccessToken: 'f42c2d6bc61702ee209977452f672dea'
+    domain: '<yourstore>.com',
+    storefrontAccessToken: '<accessToken>'
 });
 const fetchAllInfo = () => {
     const dispatch = useDispatch();
@@ -27,8 +27,6 @@ const fetchAllInfo = () => {
     });
     client.product.fetchAll().then((res) => {
         dispatch(allActions.productAction.getProducts(res));
-    });
- 
+    }); 
 }
-
 export default fetchAllInfo
