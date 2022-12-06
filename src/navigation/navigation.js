@@ -1,8 +1,3 @@
-/**
- * @format
- * @flow strict-local
- */
-
 import React, { useEffect } from 'react';
 import {useSelector, useDispatch} from 'react-redux';
 import {Image, Linking} from 'react-native';
