@@ -1,4 +1,1 @@
-export const wheelPickerData = [
-    'London Rooftop',
-    'The Grimm'
-];
+export const wheelPickerData = [ 'London Rooftop', 'The Grimm' ];
