@@ -13,7 +13,7 @@ export const SHOP_URL = '...';
 ```
 export const API_URL = 'https://<storeURL>.myshopify.com/api/2022-04/graphql.json';
 export const ACCESS_TOKEN = 'Privat info';
-export const SHOP_URL = 'myconcertdirect.com';
+export const SHOP_URL = 'trustcode-devstore.com';
 ```
 
 Run application after install react-native 
