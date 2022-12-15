@@ -12,5 +12,8 @@ const App = () => {
       </Provider>
   )
 }
-
 export default App
+
+/**
+* Digital Assets for Shopify store
+*/
